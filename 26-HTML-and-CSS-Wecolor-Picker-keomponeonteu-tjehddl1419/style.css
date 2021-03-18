@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.box-wrap {
+  border-style: none;
+  border-radius: 10px;
+  width: 280px;
+  height: 310px;
+  background-color: #ebeff3;
+  padding-top: 1px;
+}
+
+.colorBox {
+  border-style: none;
+  border-radius: 10px;
+  width: 244px;
+  height: 210px;
+  background-color: rgb(113, 159, 176);
+  margin: 18px;
+  position: relative;
+}
+
+.span {
+  background-color: rgb(87, 130, 144);
+  font-size: 13px;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+}
+
+.colorBox .span {
+  display: none;
+}
+.colorBox:hover .span {
+  display: block;
+}
+
+ button{
+  border: 1px solid lightgray;
+  border-radius: 5px; 
+  width: 70px;
+  font-size: 16px;
+  
+}
+
+.button{
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  margin-left: 20px;
+}
