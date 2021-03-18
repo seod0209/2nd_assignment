@@ -1,0 +1,76 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+img {
+ display: block;
+ margin-top: 180px; 
+}
+
+.text {
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  position: absolute;
+}
+
+.search {
+  position: relative;
+  width: 700px;
+
+}
+.search input{
+  display: block;
+  width: 700px;
+  height: 40px;
+}
+
+
+.fa-search {
+  color: gray;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+} 
+
+.fa-microphone {
+  color: rgb(79, 134, 236);
+  position: absolute;
+  right: 20px;
+  top: 10px;
+} 
+
+.fa-keyboard{
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+
+
+
+.button button{
+  color: gray;
+  border-style: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-right: 5px;
+  margin-left: 5px;
+  position: relative;
+  top: 50px;
+}
+
+.lang {
+  font-size: 12px;
+  padding-top: 20px;
+  position: relative;
+  top: 50px;
+}
+
+a {
+ color: rgb(74, 78, 185);
+ text-decoration: none;
+}
