@@ -5,6 +5,14 @@
    margin-right: auto;
 }
 
+* input:focus{
+   outline: none;
+}
+
+button:focus{
+   outline: none;
+}
+
 
 header {
    border: 1px solid #dbdbdb;
